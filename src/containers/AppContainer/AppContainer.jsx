@@ -23,7 +23,7 @@ class AppContainer extends Component {
 	render() {
 		return (
 			<div styleName={'main'}>
-				Hi! <Test2></Test2>
+				Hi! Neue Änderung <Test2></Test2>
 			</div>
 		);
 	}

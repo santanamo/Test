@@ -8,6 +8,7 @@ import style from './AppContainer.less';
 
 import { Route, Link, withRouter, Switch, Redirect } from 'react-router-dom';
 import Test2 from '../../components/Test2/Test2';
+import Neuercomponent from '../../components/Neuercomponent';
 
 
 @withRouter
@@ -23,7 +24,8 @@ class AppContainer extends Component {
 	render() {
 		return (
 			<div styleName={'main'}>
-				Hi!  Änderung <Test2></Test2>
+				Hi!  Änderung <Test2></Test2><Neuercomponent></Neuercomponent>
+	
 			</div>
 		);
 	}
